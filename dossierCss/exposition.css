@@ -1,0 +1,119 @@
+body{
+margin: 0;
+background-color: bisque;
+}
+
+
+
+.navBar__boxLink{
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+list-style-type: none ;
+gap: 0.5rem;
+font-size: 1.8rem;
+font-style: italic;
+
+}
+
+.navBar__img{
+
+width: 100%;
+height: 89.85vh;
+    
+}
+.photocf2d {        
+position: absolute;
+top: 76%;
+right: 90%;
+}
+
+/* Container qui contient l'image et la video */
+.container {
+position: relative;
+display: -inline-box;
+}
+
+
+/* Video superposée */
+.video-overlay {
+    
+top: 0%;
+left: 100px;
+width: 450px;
+height: 910px;
+object-fit: cover; /* Remplir l'écran sans déformer */
+    
+}
+
+.blocParent {
+display: flex;
+font-size: 22px;
+position: absolute;
+top: 2% ;
+bottom: ;
+left: 25%;
+right: ;
+} 
+h3 {
+    text-decoration: underline;
+}
+
+.bloc2 {
+text-align: center;
+}   
+
+.commun {
+
+width: 70%;
+}
+.bloc3 {
+position: absolute;
+top: 110%;
+width: 100%;
+}
+
+.paragrapheBloc2 {
+text-align: left;
+    
+}
+h4 {
+    text-decoration: underline;
+}
+
+/* footer  */
+.footer {
+
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;    
+font-size: 20px;
+list-style-type: none;
+font-style: italic;
+border-top: 4px solid black;
+        
+}
+    
+.footer__services {
+border: 1px solid red;
+}
+/* encadrer les 4 blocs dans footer */
+.footer__list 
+border: 1px solid orange;
+font-weight: bold;
+list-style-type: none;
+padding: 0 0;
+    
+    
+    
+        
+        
+
+
+
+
+
+
+
+  

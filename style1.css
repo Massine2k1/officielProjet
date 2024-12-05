@@ -1,0 +1,88 @@
+body{
+margin: 0;
+background-color: bisque;
+}
+
+/* navBar */
+
+.navBar__boxLink{
+
+display: flex;
+flex-direction: row;
+
+justify-content: space-around;
+list-style-type: none ;
+gap: 0.5rem;
+font-size: 1.8rem;
+font-style: italic;
+}
+.navBar__img{
+
+width: 100%;
+height: 95vh;
+}
+
+.photocf2d {        
+position: absolute;
+top: 80.5%;
+right: 90%;
+}
+
+h1  {
+        
+font-size: 100px;
+text-align: center;
+position: absolute;
+top: 22%;
+right: 8%;
+color: black;
+        
+}
+
+/* footer  */
+.footer {
+
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;    
+font-size: 20px;
+list-style-type: none;
+font-style: italic;
+border-top: 4px solid black;
+        
+}
+    
+.footer__services {
+border: 1px solid red;
+}
+/* encadrer les 4 blocs dans footer */
+.footer__list 
+border: 1px solid orange;
+font-weight: bold;
+list-style-type: none;
+padding: 0 0;
+    
+    
+p {
+text-decoration: underline;
+}
+h4 {
+    text-decoration: underline;
+}
+
+
+    
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
