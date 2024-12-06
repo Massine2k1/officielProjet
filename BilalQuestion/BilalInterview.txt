@@ -1,5 +1,6 @@
 Synthèse des Questions et Réponses
 
+
 Question 1 : Qui êtes-vous ?
 
 Je m'appelle Bilal Khaldi, administrateur de bases de données côté infrastructure et système depuis 4 ans.
@@ -32,7 +33,7 @@ Question 5 : Quels conseils donneriez-vous pour exercer ce métier ?
 Je recommande de rester constamment à jour en suivant les tendances technologiques sur les réseaux sociaux ou via des conférences. 
 Il est essentiel de choisir un domaine qui vous passionne, que ce soit le développement full-stack, l'administration système ou l'infrastructure, pour trouver un équilibre entre passion et travail.
 
-Question 6 : Coordonnées de l’entreprise
+Question 6 : Coordonnées de l’entreprise ?
 
 Je travaille pour l'ONSS (Office National de Sécurité Sociale), où je gère le cloud extranet de l'ONSS pour le gouvernement belge, en fournissant les bases de données et les serveurs nécessaires.
 
@@ -46,5 +47,5 @@ Dans le département infrastructures et systèmes, nous sommes environ 170 perso
 
 Question 9 : Quel est l'organigramme de votre entreprise ?
 
-Je suis DBA (Database Administrator) et fais partie d'une équipe dirigée par un chef d'équipe dédié aux bases de données.
+Je suis DBA (Database Administrator) et fais partie d'une équipe dirigée par un chef d'équipe dédiée aux bases de données.
  Ce chef rapporte à un responsable middleware, qui lui-même dépend du Service Chain Manager, chef du département infrastructures et systèmes.
