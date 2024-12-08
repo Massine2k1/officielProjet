@@ -31,7 +31,7 @@ body {
 
 @keyframes n {
     0% {
-        transform: translateX(40%);
+        transform: translateX(30%);
         /* Le texte commence à droite */
     }
 
