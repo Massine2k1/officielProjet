@@ -11,9 +11,10 @@ background-color: bisque;
 .image-reduite{
     position: absolute; /* Permet de superposer cette image */
     right: 122px; /* Distance par rapport à la droite du container */
-    width: 450px; /* Taille reduite pour l'image */
+    width: 350px; /* Taille reduite pour l'image */
     height: auto; /* Garde les proportions */
     border: 2px solid gray; /* Exemple de style(encadrement) */
+    bottom: -350px;
 }
 
 
