@@ -28,6 +28,8 @@ top: 80.5%;
 right: 90%;
 }
 
+    
+
 h1  {
         
 font-size: 100px;
@@ -36,6 +38,9 @@ position: absolute;
 top: 22%;
 right: 8%;
 color: black;
+font-size: 6.3rem;
+    color: black;
+    text-shadow:  red 2px 5px;; /* X-offset, Y-offset, Blur-radius, Couleur */
         
 }
 
