@@ -1,20 +1,30 @@
-body {
-
-    background-color: bisque;
+body {   /* body = page entière du corp */
+    background-color: bisque;  /* couleur de fond du body */
     text-align: center;
     font-size: 22px;
-    margin: 20px 20px 20px 20px;
+    margin: 0px ; /* marge de toute la page "body" */
+    font-family: Arial, Helvetica, sans-serif;
 
+}
+a { /* a "sont les éléments de ma navbar" */    
+    text-decoration: none; /* sert à ajouter, modifier ou supprimer des décorations */ 
+    color: black; /*  couleu noir des éléments de la NavBar */
+}
+
+main {
+    margin: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5; /* Augmente l'espacement entre les lignes */
 }
 
 
 .defilement {
-    overflow: hidden;
-    /* Cache le texte en dehors du conteneur */
-    white-space: nowrap;
-    /* Empêche le texte de passer à la ligne */
+    overflow: hidden; /* Cache le texte en dehors du conteneur */
+    white-space: nowrap;  /* Empêche le texte de passer à la ligne */
     position: relative;
-    background-color: bisque;
+    background-color: bisque;  /* couleur de fond du défilement */
     padding: 0px 0px;
 }
 
@@ -25,19 +35,18 @@ body {
     text-decoration: none;
     font-weight: 900;
     font-size: 25px;
-    animation: n 50s infinite;
-    /* Animation définie plus bas*/
+    animation: n 50s infinite; /* Animation définie plus bas*/
+    
 }
 
 @keyframes n {
     0% {
-        transform: translateX(30%);
-        /* Le texte commence à droite */
-    }
+        transform: translateX(30%);  /* Le texte commence à droite */
+       }
 
     100% {
-        transform: translateX(-100%);
-        /* Le texte disparaît à gauche */
+        transform: translateX(-100%);  /* Le texte disparaît à gauche */
+        
     }
 }
 
@@ -47,14 +56,11 @@ body {
 
     display: flex;
     flex-direction: row;
-
     justify-content: space-around;
-
-
     list-style-type: none;
     gap: 0.5rem;
     font-size: 1.8rem;
-    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -69,6 +75,7 @@ body {
     position: absolute;
     top: 75.5%;
     right: 87.2%;
+    width: 6%;
 }
 
 .souligner {
@@ -77,6 +84,8 @@ body {
 
 li {
     list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 
